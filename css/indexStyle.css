@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(45deg, #1f0029, black);
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+
+    margin: 5em auto;
+}
+
+.infoProfile, .experiences {
+    width: 100%;
+
+    background: linear-gradient(45deg, #2e003d, #0d0011);
+    border-radius: 20px;
+
+    padding: 30px 0 0 30px;
+}
+
+.infoProfile {
+    height: 230px;
+}
+
+#profilePhoto {
+    height: 200px;
+    display: inline-block;
+
+    border-radius: 20px;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+
+    margin-left: 30px;
+}
+
+.titlePattern {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.info ul {
+    margin-top: 2em;
+}
+
+.info li {
+    line-height: 1.5;
+}
+
+.info ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.experiences {
+    margin-top: 2em;
+    padding-bottom: 2em;
+
+    line-height: 1.5;
+}
+
+.experiences h1 {
+    margin-bottom: 1em;
+}
