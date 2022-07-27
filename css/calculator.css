@@ -37,8 +37,10 @@ form input[type="number"], form p {
 form input[type="button"] {
     display: inline-block;
 
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+
+    text-align: center;
 
     color: white;
 
