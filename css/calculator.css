@@ -1,0 +1,49 @@
+body {
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    width: 200px;
+    margin: auto auto;
+}
+
+form input, form p {
+    margin-bottom: 1em;
+}
+
+form input[type="number"] {
+    width: 90%;
+
+    padding: 5px 10px;
+
+    color: white;
+    background: linear-gradient(#4d0066, #2d003b);
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+form input[type="number"], form p {
+    display: block;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    justify-content: space-between;
+}
+
+form input[type="button"] {
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+
+    color: white;
+
+    background: linear-gradient(#4d0066, #2d003b);
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
