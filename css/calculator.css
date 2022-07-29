@@ -1,10 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
     background-repeat: no-repeat;
 }
 
-.calculator {
+.patternCases {
     width: 200px;
-    margin: auto auto;
+    margin: auto auto 2em;
 }
 
 form input, form p {
@@ -29,7 +33,7 @@ form input[type="number"], form p {
 
 .buttons {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 40px 40px 40px 40px;
 
     justify-content: space-between;
 }
@@ -58,4 +62,29 @@ form input[type="button"]:hover {
 
 form input[type="button"]:active {
     background: linear-gradient(#260033, #000000);
+}
+
+form input[type="text"] {
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    text-align: center;
+
+    background: linear-gradient(#4d0066, #2d003b);
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    width: 135px;
+    
+    border: 1;
+}
+
+form input[type="text"]:focus {
+    outline: 0;
+}
+
+.backToIndex {
+    margin: 0;
 }

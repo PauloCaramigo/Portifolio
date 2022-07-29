@@ -1,44 +1,38 @@
-function sum() {
-    let num = document.querySelector("#numberOne").value;
-    num = +num;
-    let num2 = document.querySelector("#numberTwo").value;
-    num2 = +num2;
+function getValues() {
+    let nums = [];
 
-    console.log(num + num2);
+    nums.push(+document.querySelector("#numberOne").value);
+    nums.push(+document.querySelector("#numberTwo").value);
+
+    return nums;
+}
+
+function sum() {
+    let nums = getValues();
+
+    document.querySelector("#result").value = (nums[0] + nums[1]);
 }
 
 function subtraction() {
-    let num = document.querySelector("#numberOne").value;
-    num = +num;
-    let num2 = document.querySelector("#numberTwo").value;
-    num2 = +num2;
+    let nums = getValues();
 
-    console.log(num - num2);
+    document.querySelector("#result").value = (nums[0] - nums[1]);
 }
 
 function multiplication() {
-    let num = document.querySelector("#numberOne").value;
-    num = +num;
-    let num2 = document.querySelector("#numberTwo").value;
-    num2 = +num2;
+    let nums = getValues();
 
-    console.log(num * num2);
+    document.querySelector("#result").value = (nums[0] * nums[1]);
 }
 
 function division() {
-    let num = document.querySelector("#numberOne").value;
-    num = +num;
-    let num2 = document.querySelector("#numberTwo").value;
-    num2 = +num2;
+    let nums = getValues();
 
-    console.log(num / num2);
+    document.querySelector("#result").value = (nums[0] / nums[1]);
 }
 
 function pow() {
-    let num = document.querySelector("#numberOne").value;
-    num = +num;
-    let num2 = document.querySelector("#numberTwo").value;
-    num2 = +num2;
+    let nums = getValues();
 
-    console.log(Math.pow(num, num2));
+    document.querySelector("#result").value = (Math.pow(nums[0], nums[1]));
 }
