@@ -6,7 +6,7 @@ export default function Projetos() {
         <section id="Projetos" className="container mx-auto">
             {/*Projeto 1 */}
             <Link href="https://github.com/PauloCaramigo/Exercicio-26-EBAC.git" target="_blank" className="flex shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
-                <Image src="https://placehold.co/192x192" alt="Imagem do projeto" width="192" height="192" unoptimized/>
+                <Image src="/ModuleFederation.png" alt="Imagem do projeto" width="192" height="192"/>
 
                 <div className="ml-8">
                     <h1 className="text-2xl font-bold">Exercicio sobre Micro Front-End</h1>
@@ -25,12 +25,12 @@ export default function Projetos() {
                     </span>
                 </div>
 
-                <Image src="https://placehold.co/192x192" alt="Imagem do projeto" width="192" height="192" unoptimized/>
+                <Image src="/pwa.webp" alt="Imagem do projeto" width="192" height="192"/>
             </Link>
 
             {/*Projeto 3 */}
             <Link href="https://github.com/PauloCaramigo/Exercicio-23-EBAC.git" target="_blank" className="flex shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
-                <Image src="https://placehold.co/192x192" alt="Imagem do projeto" width="192" height="192" unoptimized/>
+                <Image src="/cicd.png" alt="Imagem do projeto" width="192" height="192"/>
 
                 <div className="ml-8">
                     <h1 className="text-2xl font-bold">Exercicio sobre Pipeline CI/CD</h1>

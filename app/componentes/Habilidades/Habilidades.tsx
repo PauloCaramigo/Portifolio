@@ -6,13 +6,12 @@ export default function Habilidades() {
             <h1 className="text-2xl font-bold">Minhas habilidades/especialidades</h1>
 
             <div className="flex gap-4 mt-6">
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
-                <Image src="https://placehold.co/64x64" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64" unoptimized/>
+                <Image src="/html.png" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
+                <Image src="/css.webp" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
+                <Image src="/React.png" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
+                <Image src="/NextJS.png" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
+                <Image src="/tailwindcss.webp" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
+                <Image src="/github.png" alt="Imagem da tecnologia" title="Imagem da tecnologia" width="64" height="64"/>
             </div>
         </section>
     )
