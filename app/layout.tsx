@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./componentes/Header/Header";
+import Footer from "./componentes/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Portifólio",
@@ -18,6 +19,8 @@ export default function RootLayout({
         <Header />
         
         {children}
+
+        <Footer />
       </body>
     </html>
   );

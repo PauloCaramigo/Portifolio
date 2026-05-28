@@ -11,6 +11,6 @@ export default function Header() {
                 <Link href="#Habilidades" className="hover:scale-105 hover:font-bold">Habilidades</Link>
                 <Link href="#Contato" className="hover:scale-105 hover:font-bold">Contato</Link>
             </nav>
-        </ header>
+        </header>
     )
 }

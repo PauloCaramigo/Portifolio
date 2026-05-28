@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function SobreMim() {
     return (
-        <section id="SobreMim" className="flex container mx-auto justify-between py-20">
+        <section id="SobreMim" className="lg:flex lg:justify-between container mx-auto py-20">
             <div className="mr-10">
-                <h1 className="text-4xl font-bold">Paulo Domingues L. R. Caramigo</h1>
+                <h1 className="text-4xl font-bold text-center lg:text-left">Paulo Domingues L. R. Caramigo</h1>
                 <br/>
 
                 <p>
@@ -16,7 +16,7 @@ export default function SobreMim() {
                 </p>
             </div>
             
-            <Image src="/image.png" alt="Foto de perfil" width="512" height="512" className="rounded-l-full"/>
+            <Image src="/image.png" alt="Foto de perfil" width="512" height="512" className="rounded-xl lg:rounded-l-full mt-10 lg:mt-0 m-auto"/>
             
         </section>
     )

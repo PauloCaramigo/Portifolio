@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Projetos() {
     return (
-        <section id="Projetos" className="container mx-auto">
+        <section id="Projetos" className="flex flex-col container mx-auto">
             {/*Projeto 1 */}
-            <Link href="https://github.com/PauloCaramigo/Exercicio-26-EBAC.git" target="_blank" className="flex shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
-                <Image src="/ModuleFederation.png" alt="Imagem do projeto" width="192" height="192"/>
+            <Link href="https://github.com/PauloCaramigo/Exercicio-26-EBAC.git" target="_blank" className="flex items-center shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
+                <Image src="/ModuleFederation.png" alt="Imagem do projeto" width="192" height="192" className="w-50 h-50"/>
 
                 <div className="ml-8">
                     <h1 className="text-2xl font-bold">Exercicio sobre Micro Front-End</h1>
@@ -17,7 +17,7 @@ export default function Projetos() {
             </Link>
 
             {/*Projeto 2 */}
-            <Link href="https://github.com/PauloCaramigo/Exercicio-24-EBAC.git" target="_blank" className="flex justify-between shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
+            <Link href="https://github.com/PauloCaramigo/Exercicio-24-EBAC.git" target="_blank" className="flex items-center justify-between shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
                 <div className="mr-8">
                     <h1 className="text-2xl font-bold">Exercicio sobre a implementação de PWA</h1>
                     <span>
@@ -25,12 +25,12 @@ export default function Projetos() {
                     </span>
                 </div>
 
-                <Image src="/pwa.webp" alt="Imagem do projeto" width="192" height="192"/>
+                <Image src="/pwa.webp" alt="Imagem do projeto" width="192" height="192" className="w-50 h-30"/>
             </Link>
 
             {/*Projeto 3 */}
-            <Link href="https://github.com/PauloCaramigo/Exercicio-23-EBAC.git" target="_blank" className="flex shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
-                <Image src="/cicd.png" alt="Imagem do projeto" width="192" height="192"/>
+            <Link href="https://github.com/PauloCaramigo/Exercicio-23-EBAC.git" target="_blank" className="flex items-center shadow-lg shadow-white m-4 p-2 border rounded-lg hover:scale-102">
+                <Image src="/cicd.png" alt="Imagem do projeto" width="192" height="192" className="w-50 h-30"/>
 
                 <div className="ml-8">
                     <h1 className="text-2xl font-bold">Exercicio sobre Pipeline CI/CD</h1>
